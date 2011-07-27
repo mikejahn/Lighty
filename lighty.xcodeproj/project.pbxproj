@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E98FC3913DFB82F00CC706B /* TurnLightOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E98FC3713DFB82F00CC706B /* TurnLightOff.png */; };
+		1E98FC3A13DFB82F00CC706B /* TurnLightOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E98FC3813DFB82F00CC706B /* TurnLightOn.png */; };
+		1E98FC3C13DFBCF800CC706B /* LightyIPHONE4ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E98FC3B13DFBCF800CC706B /* LightyIPHONE4ICON.png */; };
+		1EBE8BEA13DF964A00DE38E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBE8BE913DF964A00DE38E8 /* UIKit.framework */; };
+		1EBE8BEC13DF964A00DE38E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBE8BEB13DF964A00DE38E8 /* Foundation.framework */; };
+		1EBE8BEE13DF964A00DE38E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBE8BED13DF964A00DE38E8 /* CoreGraphics.framework */; };
+		1EBE8BF413DF964A00DE38E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE8BF213DF964A00DE38E8 /* InfoPlist.strings */; };
+		1EBE8BF713DF964A00DE38E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE8BF613DF964A00DE38E8 /* main.m */; };
+		1EBE8BFA13DF964A00DE38E8 /* lightyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE8BF913DF964A00DE38E8 /* lightyAppDelegate.m */; };
+		1EBE8BFD13DF964A00DE38E8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE8BFB13DF964A00DE38E8 /* MainWindow.xib */; };
+		1EBE8C0013DF964A00DE38E8 /* lightyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE8BFF13DF964A00DE38E8 /* lightyViewController.m */; };
+		1EBE8C0313DF964A00DE38E8 /* lightyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE8C0113DF964A00DE38E8 /* lightyViewController.xib */; };
+		1EBE8C0A13DF964A00DE38E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBE8BE913DF964A00DE38E8 /* UIKit.framework */; };
+		1EBE8C0B13DF964A00DE38E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBE8BEB13DF964A00DE38E8 /* Foundation.framework */; };
+		1EBE8C0C13DF964A00DE38E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBE8BED13DF964A00DE38E8 /* CoreGraphics.framework */; };
+		1EBE8C1413DF964A00DE38E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE8C1213DF964A00DE38E8 /* InfoPlist.strings */; };
+		1EBE8C1713DF964A00DE38E8 /* lightyTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE8C1613DF964A00DE38E8 /* lightyTests.h */; };
+		1EBE8C1913DF964A00DE38E8 /* lightyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE8C1813DF964A00DE38E8 /* lightyTests.m */; };
+		1EBE8C2B13DFA09700DE38E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBE8C2A13DFA09700DE38E8 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EBE8C0D13DF964A00DE38E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBE8BDC13DF964900DE38E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBE8BE413DF964A00DE38E8;
+			remoteInfo = lighty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E98FC3713DFB82F00CC706B /* TurnLightOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TurnLightOff.png; sourceTree = "<group>"; };
+		1E98FC3813DFB82F00CC706B /* TurnLightOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TurnLightOn.png; sourceTree = "<group>"; };
+		1E98FC3B13DFBCF800CC706B /* LightyIPHONE4ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightyIPHONE4ICON.png; sourceTree = "<group>"; };
+		1EBE8BE513DF964A00DE38E8 /* lighty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lighty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBE8BE913DF964A00DE38E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1EBE8BEB13DF964A00DE38E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1EBE8BED13DF964A00DE38E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1EBE8BF113DF964A00DE38E8 /* lighty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lighty-Info.plist"; sourceTree = "<group>"; };
+		1EBE8BF313DF964A00DE38E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1EBE8BF513DF964A00DE38E8 /* lighty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lighty-Prefix.pch"; sourceTree = "<group>"; };
+		1EBE8BF613DF964A00DE38E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EBE8BF813DF964A00DE38E8 /* lightyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lightyAppDelegate.h; sourceTree = "<group>"; };
+		1EBE8BF913DF964A00DE38E8 /* lightyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lightyAppDelegate.m; sourceTree = "<group>"; };
+		1EBE8BFC13DF964A00DE38E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1EBE8BFE13DF964A00DE38E8 /* lightyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lightyViewController.h; sourceTree = "<group>"; };
+		1EBE8BFF13DF964A00DE38E8 /* lightyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lightyViewController.m; sourceTree = "<group>"; };
+		1EBE8C0213DF964A00DE38E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/lightyViewController.xib; sourceTree = "<group>"; };
+		1EBE8C0913DF964A00DE38E8 /* lightyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBE8C1113DF964A00DE38E8 /* lightyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lightyTests-Info.plist"; sourceTree = "<group>"; };
+		1EBE8C1313DF964A00DE38E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1EBE8C1513DF964A00DE38E8 /* lightyTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lightyTests-Prefix.pch"; sourceTree = "<group>"; };
+		1EBE8C1613DF964A00DE38E8 /* lightyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lightyTests.h; sourceTree = "<group>"; };
+		1EBE8C1813DF964A00DE38E8 /* lightyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lightyTests.m; sourceTree = "<group>"; };
+		1EBE8C2A13DFA09700DE38E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBE8BE213DF964A00DE38E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE8C2B13DFA09700DE38E8 /* AVFoundation.framework in Frameworks */,
+				1EBE8BEA13DF964A00DE38E8 /* UIKit.framework in Frameworks */,
+				1EBE8BEC13DF964A00DE38E8 /* Foundation.framework in Frameworks */,
+				1EBE8BEE13DF964A00DE38E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBE8C0513DF964A00DE38E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE8C0A13DF964A00DE38E8 /* UIKit.framework in Frameworks */,
+				1EBE8C0B13DF964A00DE38E8 /* Foundation.framework in Frameworks */,
+				1EBE8C0C13DF964A00DE38E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBE8BDA13DF964900DE38E8 = {
+			isa = PBXGroup;
+			children = (
+				1EBE8C2C13DFA32900DE38E8 /* images */,
+				1EBE8BEF13DF964A00DE38E8 /* lighty */,
+				1EBE8C0F13DF964A00DE38E8 /* lightyTests */,
+				1EBE8BE813DF964A00DE38E8 /* Frameworks */,
+				1EBE8BE613DF964A00DE38E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBE8BE613DF964A00DE38E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE8BE513DF964A00DE38E8 /* lighty.app */,
+				1EBE8C0913DF964A00DE38E8 /* lightyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBE8BE813DF964A00DE38E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE8C2A13DFA09700DE38E8 /* AVFoundation.framework */,
+				1EBE8BE913DF964A00DE38E8 /* UIKit.framework */,
+				1EBE8BEB13DF964A00DE38E8 /* Foundation.framework */,
+				1EBE8BED13DF964A00DE38E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EBE8BEF13DF964A00DE38E8 /* lighty */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE8BF813DF964A00DE38E8 /* lightyAppDelegate.h */,
+				1EBE8BF913DF964A00DE38E8 /* lightyAppDelegate.m */,
+				1EBE8BFB13DF964A00DE38E8 /* MainWindow.xib */,
+				1EBE8BFE13DF964A00DE38E8 /* lightyViewController.h */,
+				1EBE8BFF13DF964A00DE38E8 /* lightyViewController.m */,
+				1EBE8C0113DF964A00DE38E8 /* lightyViewController.xib */,
+				1EBE8BF013DF964A00DE38E8 /* Supporting Files */,
+			);
+			path = lighty;
+			sourceTree = "<group>";
+		};
+		1EBE8BF013DF964A00DE38E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE8BF113DF964A00DE38E8 /* lighty-Info.plist */,
+				1EBE8BF213DF964A00DE38E8 /* InfoPlist.strings */,
+				1EBE8BF513DF964A00DE38E8 /* lighty-Prefix.pch */,
+				1EBE8BF613DF964A00DE38E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EBE8C0F13DF964A00DE38E8 /* lightyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE8C1613DF964A00DE38E8 /* lightyTests.h */,
+				1EBE8C1813DF964A00DE38E8 /* lightyTests.m */,
+				1EBE8C1013DF964A00DE38E8 /* Supporting Files */,
+			);
+			path = lightyTests;
+			sourceTree = "<group>";
+		};
+		1EBE8C1013DF964A00DE38E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE8C1113DF964A00DE38E8 /* lightyTests-Info.plist */,
+				1EBE8C1213DF964A00DE38E8 /* InfoPlist.strings */,
+				1EBE8C1513DF964A00DE38E8 /* lightyTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EBE8C2C13DFA32900DE38E8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1E98FC3B13DFBCF800CC706B /* LightyIPHONE4ICON.png */,
+				1E98FC3713DFB82F00CC706B /* TurnLightOff.png */,
+				1E98FC3813DFB82F00CC706B /* TurnLightOn.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBE8BE413DF964A00DE38E8 /* lighty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBE8C1C13DF964A00DE38E8 /* Build configuration list for PBXNativeTarget "lighty" */;
+			buildPhases = (
+				1EBE8BE113DF964A00DE38E8 /* Sources */,
+				1EBE8BE213DF964A00DE38E8 /* Frameworks */,
+				1EBE8BE313DF964A00DE38E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lighty;
+			productName = lighty;
+			productReference = 1EBE8BE513DF964A00DE38E8 /* lighty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EBE8C0813DF964A00DE38E8 /* lightyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBE8C1F13DF964A00DE38E8 /* Build configuration list for PBXNativeTarget "lightyTests" */;
+			buildPhases = (
+				1EBE8C0413DF964A00DE38E8 /* Sources */,
+				1EBE8C0513DF964A00DE38E8 /* Frameworks */,
+				1EBE8C0613DF964A00DE38E8 /* Resources */,
+				1EBE8C0713DF964A00DE38E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBE8C0E13DF964A00DE38E8 /* PBXTargetDependency */,
+			);
+			name = lightyTests;
+			productName = lightyTests;
+			productReference = 1EBE8C0913DF964A00DE38E8 /* lightyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBE8BDC13DF964900DE38E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = n/a;
+			};
+			buildConfigurationList = 1EBE8BDF13DF964900DE38E8 /* Build configuration list for PBXProject "lighty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1EBE8BDA13DF964900DE38E8;
+			productRefGroup = 1EBE8BE613DF964A00DE38E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBE8BE413DF964A00DE38E8 /* lighty */,
+				1EBE8C0813DF964A00DE38E8 /* lightyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBE8BE313DF964A00DE38E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE8BF413DF964A00DE38E8 /* InfoPlist.strings in Resources */,
+				1EBE8BFD13DF964A00DE38E8 /* MainWindow.xib in Resources */,
+				1EBE8C0313DF964A00DE38E8 /* lightyViewController.xib in Resources */,
+				1E98FC3913DFB82F00CC706B /* TurnLightOff.png in Resources */,
+				1E98FC3A13DFB82F00CC706B /* TurnLightOn.png in Resources */,
+				1E98FC3C13DFBCF800CC706B /* LightyIPHONE4ICON.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBE8C0613DF964A00DE38E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE8C1413DF964A00DE38E8 /* InfoPlist.strings in Resources */,
+				1EBE8C1713DF964A00DE38E8 /* lightyTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EBE8C0713DF964A00DE38E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBE8BE113DF964A00DE38E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE8BF713DF964A00DE38E8 /* main.m in Sources */,
+				1EBE8BFA13DF964A00DE38E8 /* lightyAppDelegate.m in Sources */,
+				1EBE8C0013DF964A00DE38E8 /* lightyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBE8C0413DF964A00DE38E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE8C1913DF964A00DE38E8 /* lightyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EBE8C0E13DF964A00DE38E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBE8BE413DF964A00DE38E8 /* lighty */;
+			targetProxy = 1EBE8C0D13DF964A00DE38E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EBE8BF213DF964A00DE38E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBE8BF313DF964A00DE38E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1EBE8BFB13DF964A00DE38E8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBE8BFC13DF964A00DE38E8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1EBE8C0113DF964A00DE38E8 /* lightyViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBE8C0213DF964A00DE38E8 /* en */,
+			);
+			name = lightyViewController.xib;
+			sourceTree = "<group>";
+		};
+		1EBE8C1213DF964A00DE38E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBE8C1313DF964A00DE38E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EBE8C1A13DF964A00DE38E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EBE8C1B13DF964A00DE38E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1EBE8C1D13DF964A00DE38E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lighty/lighty-Prefix.pch";
+				INFOPLIST_FILE = "lighty/lighty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1EBE8C1E13DF964A00DE38E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lighty/lighty-Prefix.pch";
+				INFOPLIST_FILE = "lighty/lighty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1EBE8C2013DF964A00DE38E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lighty.app/lighty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lightyTests/lightyTests-Prefix.pch";
+				INFOPLIST_FILE = "lightyTests/lightyTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1EBE8C2113DF964A00DE38E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lighty.app/lighty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lightyTests/lightyTests-Prefix.pch";
+				INFOPLIST_FILE = "lightyTests/lightyTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBE8BDF13DF964900DE38E8 /* Build configuration list for PBXProject "lighty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE8C1A13DF964A00DE38E8 /* Debug */,
+				1EBE8C1B13DF964A00DE38E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBE8C1C13DF964A00DE38E8 /* Build configuration list for PBXNativeTarget "lighty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE8C1D13DF964A00DE38E8 /* Debug */,
+				1EBE8C1E13DF964A00DE38E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBE8C1F13DF964A00DE38E8 /* Build configuration list for PBXNativeTarget "lightyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE8C2013DF964A00DE38E8 /* Debug */,
+				1EBE8C2113DF964A00DE38E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EBE8BDC13DF964900DE38E8 /* Project object */;
+}
